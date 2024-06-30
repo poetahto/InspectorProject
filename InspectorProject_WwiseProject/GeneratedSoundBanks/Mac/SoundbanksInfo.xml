@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{0C4E5738-07CC-45FC-26E5-63C40CBEAA8E}">
+		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{797CECB8-6ABB-2DAA-D627-87720EC07B4D}">
 			<ShortName>Bank</ShortName>
 			<Path>Bank.bnk</Path>
 			<Media>
@@ -56,7 +56,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2922981352" Name="Play_Metallic_Click" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.35">
+				<Event Id="2922981352" Name="Play_Metallic_Click" DurationType="OneShot" DurationMin="0.16333103" DurationMax="0.3530457">
 					<MediaRefs>
 						<MediaRef Id="25268394"/>
 						<MediaRef Id="34188053"/>
@@ -70,5 +70,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5E0D9AFA-5DB1-89EA-CC26-A2CC4A7E2616}</FileHash>
+	<FileHash>{E16B790A-8A6D-5AE3-29FF-7593C953B037}</FileHash>
 </SoundBanksInfo>
