@@ -427,6 +427,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d997730b4d1359c4abba4ef5d66df67d, type: 2}
+    - target: {fileID: -2874414884616388389, guid: ccfe6e6f13942a94b91a14358879f1d0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
     - target: {fileID: -1105724130390813076, guid: ccfe6e6f13942a94b91a14358879f1d0,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -530,6 +535,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a52e0ec6aab48e191ccfb6477fb749b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationAxis: {x: 0, y: 0, z: 1}
+  maxRotations: 360
+  lockOnFinish: 1
   accel: 5
   maxRotateSpeed: 100
   twistRtpc:
@@ -537,6 +545,30 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 246bbf742f43b4e4eb8ab7741e331ed6,
       type: 2}
+  rtpcCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   twistEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -1539,6 +1571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a52e0ec6aab48e191ccfb6477fb749b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationAxis: {x: 1, y: 0, z: 0}
+  maxRotations: 720
+  lockOnFinish: 0
   accel: 5
   maxRotateSpeed: 300
   twistRtpc:
@@ -1546,6 +1581,12 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 246bbf742f43b4e4eb8ab7741e331ed6,
       type: 2}
+  rtpcCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   twistEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -1720,7 +1761,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -2358,7 +2399,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1140129691}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 0.11
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -2542,8 +2583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orbitSpeed: 15
   zIncreaseSpeed: 0.25
-  minZDistance: 1
-  maxZDistance: 5
+  minZDistance: 1.5
+  maxZDistance: 4
   zDistanceTransform: {fileID: 1140129692}
   rotatingTransform: {fileID: 2144307339}
 --- !u!1001 &8513105060341770421
