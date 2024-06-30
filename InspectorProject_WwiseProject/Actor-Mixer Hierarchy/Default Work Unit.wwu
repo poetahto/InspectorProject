@@ -1,6 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Metallic_Click" ID="{3AE7ACDF-B7DB-4799-A49C-4521622F2E66}" ShortID="208288712">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{765F1982-1291-4AB6-B84D-670364B72639}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="35"/>
+											<Property Name="Min" Type="Real64" Value="-15"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ClickA-001" ID="{8F57071D-7569-4390-A2C7-E9CF3B5506AF}" ShortID="61565603">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickA-001" ID="{387B3B7B-E2F1-4AB2-9378-D3B76029CE42}">
+									<Language>SFX</Language>
+									<AudioFile>ClickA-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="34188053"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickA-001" ID="{387B3B7B-E2F1-4AB2-9378-D3B76029CE42}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ClickB" ID="{CC4869F6-20BB-4BD3-99FD-8AD28E947B91}" ShortID="444886678">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickB" ID="{403C6597-A514-4AF6-B94C-3827627F9E2B}">
+									<Language>SFX</Language>
+									<AudioFile>ClickB.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="656176783"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickB" ID="{403C6597-A514-4AF6-B94C-3827627F9E2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ClickC" ID="{804AFF43-E4D6-401B-BAEC-C92DD6FD75E4}" ShortID="576066488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickC" ID="{7C50B000-EE46-44A9-A2BA-DC2AF2E9A1B7}">
+									<Language>SFX</Language>
+									<AudioFile>ClickC.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="223901264"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickC" ID="{7C50B000-EE46-44A9-A2BA-DC2AF2E9A1B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ClickD" ID="{E868FC4C-D9AB-4D65-A3BF-59D28FCD5983}" ShortID="583167695">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickD" ID="{02A23EEC-3477-4897-A163-BF86F8503802}">
+									<Language>SFX</Language>
+									<AudioFile>ClickD.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="867902310"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickD" ID="{02A23EEC-3477-4897-A163-BF86F8503802}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ClickE" ID="{222CDCFB-FF8B-4F2B-8E8C-ED40D03F023E}" ShortID="395192655">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickE" ID="{FB9DDF26-6D0E-423D-8127-84BD3A4E4964}">
+									<Language>SFX</Language>
+									<AudioFile>ClickE.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="25268394"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickE" ID="{FB9DDF26-6D0E-423D-8127-84BD3A4E4964}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ClickF" ID="{9382E017-2EE1-4D10-9708-180AA5009C5E}" ShortID="526819223">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickF" ID="{C36EDD21-E99B-4423-BB62-844C9DFE25EE}">
+									<Language>SFX</Language>
+									<AudioFile>ClickF.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1043098165"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickF" ID="{C36EDD21-E99B-4423-BB62-844C9DFE25EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ClickG" ID="{E7774FA8-64CB-4183-B766-6527B98F96BE}" ShortID="715383424">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ClickG" ID="{7D56D7E9-6DEF-4FD2-B4A9-44450D47F356}">
+									<Language>SFX</Language>
+									<AudioFile>ClickG.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="953947327"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ClickG" ID="{7D56D7E9-6DEF-4FD2-B4A9-44450D47F356}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
