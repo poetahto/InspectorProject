@@ -25,7 +25,7 @@
 				<GameParameter Id="2486424814" Name="Rock_Move"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{36AE5DB0-75ED-554D-E816-446DBF068CFD}">
+		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{CA72C8DB-F517-94D2-32AA-747F80E83EEB}">
 			<ShortName>Bank</ShortName>
 			<Path>Bank.bnk</Path>
 			<Media>
@@ -43,11 +43,11 @@
 				</File>
 				<File Id="518175810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grannular_Rock_Upper_Layer.wav</ShortName>
-					<CachePath>SFX/Grannular_Rock_Upper_Layer_97E9E35C.wem</CachePath>
+					<CachePath>SFX/Grannular_Rock_Upper_Layer_2FB84400.wem</CachePath>
 				</File>
 				<File Id="533181793" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grannular_Rock_Lower_Layer.wav</ShortName>
-					<CachePath>SFX/Grannular_Rock_Lower_Layer_C3DBFD45.wem</CachePath>
+					<CachePath>SFX/Grannular_Rock_Lower_Layer_3E750231.wem</CachePath>
 				</File>
 				<File Id="574853312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Reverse_Knife-001.wav</ShortName>
@@ -99,5 +99,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{06E690B1-58C9-B13E-15F6-530E801A05D2}</FileHash>
+	<FileHash>{AE37D734-1034-8EED-E73C-3143F525244F}</FileHash>
 </SoundBanksInfo>

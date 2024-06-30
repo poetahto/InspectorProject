@@ -4,18 +4,28 @@ namespace DefaultNamespace
 {
     public class TwistInteractable : Interactable
     {
-        public float rotateSpeed = 1;
+        public float accel = 5;
+        public float maxRotateSpeed = 1;
         public AK.Wwise.RTPC twistRtpc;
         public AK.Wwise.Event twistEvent;
         private Vector3 _rotation;
         private Camera _camera;
+        private float _currentRotateSpeed;
+        private bool _canRotate;
 
         private void Start()
         {
             _rotation = transform.rotation.eulerAngles;
             _camera = Camera.main;
+            twistEvent.Post(gameObject);
         }
 
+        public override void InteractEnd()
+        {
+            base.InteractEnd();
+            _canRotate = false;
+        }
+        
         public override void InteractUpdate()
         {
             base.InteractUpdate();
@@ -25,17 +35,19 @@ namespace DefaultNamespace
             Vector3 offset = mouseScreenPoint - interactableScreenPoint;
             Vector3 mouseDelta = new Vector3(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"), 0);
 
-            bool canRotate = false;
-            if ((offset.x > 0 && offset.y > 0) && (mouseDelta.x > 0 && mouseDelta.y < 0)) canRotate = true;
-            if ((offset.x > 0 && offset.y < 0) && (mouseDelta.x < 0 && mouseDelta.y < 0)) canRotate = true;
-            if ((offset.x < 0 && offset.y < 0) && (mouseDelta.x < 0 && mouseDelta.y > 0)) canRotate = true;
-            if ((offset.x < 0 && offset.y > 0) && (mouseDelta.x > 0 && mouseDelta.y > 0)) canRotate = true;
+            _canRotate = false;
+            if ((offset.x > 0 && offset.y > 0) && (mouseDelta.x > 0 && mouseDelta.y < 0)) _canRotate = true;
+            if ((offset.x > 0 && offset.y < 0) && (mouseDelta.x < 0 && mouseDelta.y < 0)) _canRotate = true;
+            if ((offset.x < 0 && offset.y < 0) && (mouseDelta.x < 0 && mouseDelta.y > 0)) _canRotate = true;
+            if ((offset.x < 0 && offset.y > 0) && (mouseDelta.x > 0 && mouseDelta.y > 0)) _canRotate = true;
+        }
 
-            if (canRotate)
-            {
-                _rotation.x -= Mathf.Max(Mathf.Abs(mouseDelta.x), Mathf.Abs(mouseDelta.y)) * rotateSpeed;
-                transform.rotation = Quaternion.Euler(_rotation);
-            }
+        private void Update()
+        {
+            _currentRotateSpeed = Mathf.Lerp(_currentRotateSpeed, _canRotate ? maxRotateSpeed : 0, accel * Time.deltaTime);
+            twistRtpc.SetValue(gameObject, (_currentRotateSpeed / maxRotateSpeed) * 100);
+            _rotation.x -= _currentRotateSpeed * Time.deltaTime;
+            transform.rotation = Quaternion.Euler(_rotation);
         }
     }
 }

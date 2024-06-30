@@ -1325,15 +1325,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a52e0ec6aab48e191ccfb6477fb749b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 5
+  accel: 5
+  maxRotateSpeed: 300
   twistRtpc:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 246bbf742f43b4e4eb8ab7741e331ed6,
+      type: 2}
   twistEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8ef5a2a5d30e82e49a9ff4734556a2db,
+      type: 2}
 --- !u!1 &1138158637
 GameObject:
   m_ObjectHideFlags: 0
