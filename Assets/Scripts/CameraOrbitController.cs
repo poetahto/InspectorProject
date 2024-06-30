@@ -27,7 +27,10 @@ namespace DefaultNamespace
             );
 
             if (Input.GetKey(KeyCode.Mouse0))
+            {
                 _targetRotation += mouseDelta * orbitSpeed;
+                _targetRotation.y = Mathf.Clamp(_targetRotation.y, -90, 90);
+            }
 
             _targetZDistance -= Input.mouseScrollDelta.y * zIncreaseSpeed;
             _targetZDistance = Mathf.Clamp(_targetZDistance, minZDistance, maxZDistance);
