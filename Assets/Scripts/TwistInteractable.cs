@@ -46,7 +46,7 @@ namespace DefaultNamespace
         {
             _currentRotateSpeed = Mathf.Lerp(_currentRotateSpeed, _canRotate ? maxRotateSpeed : 0, accel * Time.deltaTime);
             twistRtpc.SetValue(gameObject, (_currentRotateSpeed / maxRotateSpeed) * 100);
-            _rotation.x -= _currentRotateSpeed * Time.deltaTime;
+            _rotation.z += _currentRotateSpeed * Time.deltaTime;
             transform.rotation = Quaternion.Euler(_rotation);
         }
     }
