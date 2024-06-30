@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{797CECB8-6ABB-2DAA-D627-87720EC07B4D}">
+		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{013BB1BA-BC12-3665-3F6A-B2076277066F}">
 			<ShortName>Bank</ShortName>
 			<Path>Bank.bnk</Path>
 			<Media>
@@ -37,6 +37,10 @@
 				<File Id="223901264" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ClickC.wav</ShortName>
 					<CachePath>SFX/ClickC_818F3B66.wem</CachePath>
+				</File>
+				<File Id="574853312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reverse_Knife-001.wav</ShortName>
+					<CachePath>SFX/Reverse_Knife-001_818F3B66.wem</CachePath>
 				</File>
 				<File Id="656176783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ClickB.wav</ShortName>
@@ -67,8 +71,13 @@
 						<MediaRef Id="1043098165"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="341613550" Name="Play_Reverse_Knife" DurationType="OneShot" DurationMin="0.4386875" DurationMax="0.4386875">
+					<MediaRefs>
+						<MediaRef Id="574853312"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A6378E36-A8F7-9BD1-8B2B-43978D5F048E}</FileHash>
+	<FileHash>{759A4CB8-9338-33FD-F4E5-1D87DA028ACF}</FileHash>
 </SoundBanksInfo>

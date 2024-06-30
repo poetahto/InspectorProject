@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_METALLIC_CLICK = 2922981352U;
+        static const AkUniqueID PLAY_REVERSE_KNIFE = 341613550U;
     } // namespace EVENTS
 
     namespace BANKS

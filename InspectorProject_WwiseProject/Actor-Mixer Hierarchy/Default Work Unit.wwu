@@ -184,6 +184,64 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Reverse_Knife" ID="{6194C0AD-CA34-4BBC-9C7D-4DF7B06CC512}" ShortID="927774368">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Reverse_Knife" ID="{2B8E250B-6455-4168-8F91-E22FF23E4F30}">
+							<Language>SFX</Language>
+							<AudioFile>Reverse_Knife.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="921937482"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Reverse_Knife" ID="{2B8E250B-6455-4168-8F91-E22FF23E4F30}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Reverse_Knife-001" ID="{96C58C7C-B0EB-460E-819D-166056492347}" ShortID="825154688">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5.2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85462F16-E862-4621-96AE-602B2ED0B635}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA40582D-32A8-4C47-B388-128ACA7D97DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Reverse_Knife-001" ID="{7714E562-C7BA-44B1-BF68-FDCB1DEC09B1}">
+							<Language>SFX</Language>
+							<AudioFile>Reverse_Knife-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="574853312"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Reverse_Knife-001" ID="{7714E562-C7BA-44B1-BF68-FDCB1DEC09B1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
