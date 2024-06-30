@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2922981352	Play_Metallic_Click			\Default Work Unit\Play_Metallic_Click	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	25268394	ClickE	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickE_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickE		59720
+	34188053	ClickA-001	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickA-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickA-001		37892
+	223901264	ClickC	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickC_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickC		54496
+	656176783	ClickB	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickB_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickB		67296
+	867902310	ClickD	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickD_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickD		57696
+	953947327	ClickG	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickG_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickG		32096
+	1043098165	ClickF	C:\home\code\InspectorProject\InspectorProject_WwiseProject\.cache\Mac\SFX\ClickF_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickF		48096
+

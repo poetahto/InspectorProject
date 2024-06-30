@@ -3,11 +3,11 @@
 	<Project Name="InspectorProject_WwiseProject" GUID="{443553FA-1EEB-4F08-87D0-E14058020200}" Generator="2023.1.4.8496"/>
 	<CacheRoot>../../../InspectorProject_WwiseProject/.cache</CacheRoot>
 	<Platforms>
-		<Platform Name="Mac" GUID="{2E8C1E87-89A3-4A6F-BB3B-E7C882086D12}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../InspectorProject_WwiseProject/GeneratedSoundBanks/Mac"/>
-		<Platform Name="Windows" GUID="{62DEB196-B667-455A-A4BB-120038DC0EFE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../InspectorProject_WwiseProject/GeneratedSoundBanks/Windows"/>
+		<Platform Name="Mac" GUID="{2E8C1E87-89A3-4A6F-BB3B-E7C882086D12}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{62DEB196-B667-455A-A4BB-120038DC0EFE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="GeneratedSoundBanks/Windows"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{C3ED5DC0-EF3B-4729-86D1-17417795EBA9}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{495CB630-7EB6-BC79-63B8-1481447642C8}</FileHash>
+	<FileHash>{4D002EA2-2A66-FBFA-221D-73AF12F9973E}</FileHash>
 </ProjectInfo>
