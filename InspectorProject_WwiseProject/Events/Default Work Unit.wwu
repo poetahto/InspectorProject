@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Reverse_Knife" ID="{CE6DD6A8-A8C4-4B10-9577-7E236F5A946B}">
+					<ChildrenList>
+						<Action Name="" ID="{6F76D198-9ABD-444A-A9DA-4C6202B51CE2}" ShortID="168193835">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reverse_Knife-001" ID="{96C58C7C-B0EB-460E-819D-166056492347}" WorkUnitID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Looping_Rock" ID="{6F7F5AED-8C36-43BF-9624-0F9EE490C839}">
+					<ChildrenList>
+						<Action Name="" ID="{0E984234-0CE3-4E4A-9B49-B6A5CD1CA707}" ShortID="686148286">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grannular Rock" ID="{744D969E-9AB8-40EF-8CCF-36D68545E4AB}" WorkUnitID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

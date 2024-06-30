@@ -13,8 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_LOOPING_ROCK = 3537987168U;
         static const AkUniqueID PLAY_METALLIC_CLICK = 2922981352U;
+        static const AkUniqueID PLAY_REVERSE_KNIFE = 341613550U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID ROCK_MOVE = 2486424814U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
