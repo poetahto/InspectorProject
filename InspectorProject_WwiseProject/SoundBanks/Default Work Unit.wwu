@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Bank" ID="{350F39A7-6327-4634-AD29-B149DEF1407C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Grannular Rock" ID="{744D969E-9AB8-40EF-8CCF-36D68545E4AB}" WorkUnitID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reverse_Knife" ID="{CE6DD6A8-A8C4-4B10-9577-7E236F5A946B}" WorkUnitID="{E0C35B1B-61E7-46F8-9EAF-583092A8B15B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Metallic_Click" ID="{61B3568F-39E8-4DC5-997F-FD462CCAADFA}" WorkUnitID="{E0C35B1B-61E7-46F8-9EAF-583092A8B15B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

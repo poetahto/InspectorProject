@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Looping_Rock" ID="{6F7F5AED-8C36-43BF-9624-0F9EE490C839}">
+					<ChildrenList>
+						<Action Name="" ID="{0E984234-0CE3-4E4A-9B49-B6A5CD1CA707}" ShortID="686148286">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grannular Rock" ID="{744D969E-9AB8-40EF-8CCF-36D68545E4AB}" WorkUnitID="{8D7B2686-9FBE-4EE6-94A4-3B19720A79F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
