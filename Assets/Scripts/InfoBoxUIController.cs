@@ -12,6 +12,7 @@ namespace DefaultNamespace
         public float hiddenTextThreshold = 0.01f;
         public CanvasGroup shownText;
         public CanvasGroup hiddenText;
+        public AK.Wwise.Event hoverSound;
 
         public enum State
         {
@@ -89,6 +90,7 @@ namespace DefaultNamespace
         
         public void OnPointerEnter(PointerEventData eventData)
         {
+            hoverSound.Post(gameObject);
             _isHovered = true;
         }
         

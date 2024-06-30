@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 59b96e21f231ef41bdb38d7b0633b63b
     GuidInternal: 
-    m_lastTime: -8584819005829407184
-    List: []
+    m_lastTime: -8584818962878511899
+    List:
+    - name: Bank
+      guid: a7390f3527633446ad29b149def1407c
+      id: 1744429087
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59b96e21f231ef41bdb38d7b0633b63b
+      - ElementName: Bank
+        ObjectType: 7
+        guid: a7390f3527633446ad29b149def1407c
+      Path: SoundBanks\Default Work Unit\Bank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1b5bc3e0e761f8469eaf583092a8b15b
     GuidInternal: 
-    m_lastTime: -8584818996588965134
-    List: []
+    m_lastTime: -8584818962878521802
+    List:
+    - name: Play_Metallic_Click
+      guid: 8f56b361e839c54d997ffd462ccaadfa
+      id: 2922981352
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1b5bc3e0e761f8469eaf583092a8b15b
+      - ElementName: Play_Metallic_Click
+        ObjectType: 3
+        guid: 8f56b361e839c54d997ffd462ccaadfa
+      Path: Events\Default Work Unit\Play_Metallic_Click
+      maxAttenuation: 0
+      maxDuration: 0.3530457
+      minDuration: 0.16333103
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -138,8 +169,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584819005829047190
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000
+  ExpandedFileSystemItemIds: 02000000030000000600000007000000
+  ExpandedWaapiItemIds: 02000000030000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
