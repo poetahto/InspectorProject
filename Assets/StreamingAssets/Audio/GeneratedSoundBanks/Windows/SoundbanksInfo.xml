@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3E5AD2E6-39B3-48F7-8273-7E94444521D3}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,8 +21,11 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2486424814" Name="Rock_Move"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{013BB1BA-BC12-3665-3F6A-B2076277066F}">
+		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{36AE5DB0-75ED-554D-E816-446DBF068CFD}">
 			<ShortName>Bank</ShortName>
 			<Path>Bank.bnk</Path>
 			<Media>
@@ -37,6 +40,14 @@
 				<File Id="223901264" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ClickC.wav</ShortName>
 					<CachePath>SFX/ClickC_818F3B66.wem</CachePath>
+				</File>
+				<File Id="518175810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grannular_Rock_Upper_Layer.wav</ShortName>
+					<CachePath>SFX/Grannular_Rock_Upper_Layer_97E9E35C.wem</CachePath>
+				</File>
+				<File Id="533181793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grannular_Rock_Lower_Layer.wav</ShortName>
+					<CachePath>SFX/Grannular_Rock_Lower_Layer_C3DBFD45.wem</CachePath>
 				</File>
 				<File Id="574853312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Reverse_Knife-001.wav</ShortName>
@@ -60,6 +71,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3537987168" Name="Play_Looping_Rock" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="518175810"/>
+						<MediaRef Id="533181793"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2922981352" Name="Play_Metallic_Click" DurationType="OneShot" DurationMin="0.16333103" DurationMax="0.3530457">
 					<MediaRefs>
 						<MediaRef Id="25268394"/>
@@ -77,7 +94,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2486424814" Name="Rock_Move"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{759A4CB8-9338-33FD-F4E5-1D87DA028ACF}</FileHash>
+	<FileHash>{06E690B1-58C9-B13E-15F6-530E801A05D2}</FileHash>
 </SoundBanksInfo>

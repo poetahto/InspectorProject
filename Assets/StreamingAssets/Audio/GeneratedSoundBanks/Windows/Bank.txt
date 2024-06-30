@@ -1,11 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
 	341613550	Play_Reverse_Knife			\Default Work Unit\Play_Reverse_Knife	
 	2922981352	Play_Metallic_Click			\Default Work Unit\Play_Metallic_Click	
+	3537987168	Play_Looping_Rock			\Default Work Unit\Play_Looping_Rock	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2486424814	Rock_Move			\Default Work Unit\Rock_Move	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	25268394	ClickE	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\ClickE_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickE		59720
 	34188053	ClickA-001	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\ClickA-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickA-001		37892
 	223901264	ClickC	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\ClickC_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickC		54496
+	518175810	Grannular_Rock_Upper_Layer	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\Grannular_Rock_Upper_Layer_97E9E35C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grannular Rock\Grannular_Rock_Upper_Layer		3959836
+	533181793	Grannular_Rock_Lower_Layer	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\Grannular_Rock_Lower_Layer_C3DBFD45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grannular Rock\Grannular_Rock_Lower_Layer		3768624
 	574853312	Reverse_Knife-001	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\Reverse_Knife-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reverse_Knife-001		84324
 	656176783	ClickB	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\ClickB_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickB		67296
 	867902310	ClickD	Y:\Documents\GitHub\InspectorProject\InspectorProject_WwiseProject\.cache\Windows\SFX\ClickD_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metallic_Click\ClickD		57696
