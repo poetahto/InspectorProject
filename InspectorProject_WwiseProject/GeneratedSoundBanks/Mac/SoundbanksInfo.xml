@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1744429087" Type="User" Language="SFX" Hash="{0C4E5738-07CC-45FC-26E5-63C40CBEAA8E}">
+			<ShortName>Bank</ShortName>
+			<Path>Bank.bnk</Path>
+			<Media>
+				<File Id="25268394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickE.wav</ShortName>
+					<CachePath>SFX/ClickE_818F3B66.wem</CachePath>
+				</File>
+				<File Id="34188053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickA-001.wav</ShortName>
+					<CachePath>SFX/ClickA-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="223901264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickC.wav</ShortName>
+					<CachePath>SFX/ClickC_818F3B66.wem</CachePath>
+				</File>
+				<File Id="656176783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickB.wav</ShortName>
+					<CachePath>SFX/ClickB_818F3B66.wem</CachePath>
+				</File>
+				<File Id="867902310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickD.wav</ShortName>
+					<CachePath>SFX/ClickD_818F3B66.wem</CachePath>
+				</File>
+				<File Id="953947327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickG.wav</ShortName>
+					<CachePath>SFX/ClickG_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1043098165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ClickF.wav</ShortName>
+					<CachePath>SFX/ClickF_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2922981352" Name="Play_Metallic_Click" DurationType="OneShot" DurationMin="0.16666667" DurationMax="0.35">
+					<MediaRefs>
+						<MediaRef Id="25268394"/>
+						<MediaRef Id="34188053"/>
+						<MediaRef Id="223901264"/>
+						<MediaRef Id="656176783"/>
+						<MediaRef Id="867902310"/>
+						<MediaRef Id="953947327"/>
+						<MediaRef Id="1043098165"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5E0D9AFA-5DB1-89EA-CC26-A2CC4A7E2616}</FileHash>
+</SoundBanksInfo>
