@@ -4,8 +4,9 @@ namespace DefaultNamespace
 {
     public abstract class Interactable : MonoBehaviour
     {
-        public abstract void InteractStart();
-        public abstract void InteractUpdate();
-        public abstract void InteractEnd();
+        public virtual void InteractStart() {}
+        public virtual void InteractUpdate() {}
+        public virtual void InteractEnd() {}
     }
+
 }

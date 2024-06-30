@@ -6,9 +6,7 @@
         {
             print("start");
         }
-        public override void InteractUpdate()
-        {
-        }
+        
         public override void InteractEnd()
         {
             print("end");

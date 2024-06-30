@@ -1322,9 +1322,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1120560384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6498a3027dfe481b96290846c4e3e1f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a52e0ec6aab48e191ccfb6477fb749b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 5
+  twistRtpc:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  twistEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1138158637
 GameObject:
   m_ObjectHideFlags: 0
