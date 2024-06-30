@@ -19,19 +19,19 @@ namespace DefaultNamespace
             _targetZDistance = zDistanceTransform.position.z;
         }
 
-        private void Update()
+        public void ProcessMouseInput()
         {
             Vector2 mouseDelta = new Vector2(
                 Input.GetAxisRaw("Mouse X"),
                 Input.GetAxisRaw("Mouse Y")
             );
-
-            if (Input.GetKey(KeyCode.Mouse0))
-            {
-                _targetRotation += mouseDelta * orbitSpeed;
-                _targetRotation.y = Mathf.Clamp(_targetRotation.y, -90, 90);
-            }
-
+            
+            _targetRotation += mouseDelta * orbitSpeed;
+            _targetRotation.y = Mathf.Clamp(_targetRotation.y, -90, 90);
+        }
+        
+        private void Update()
+        {
             _targetZDistance -= Input.mouseScrollDelta.y * zIncreaseSpeed;
             _targetZDistance = Mathf.Clamp(_targetZDistance, minZDistance, maxZDistance);
 
